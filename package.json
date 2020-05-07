@@ -1,10 +1,10 @@
 {
-  "name": "diceware",
-  "version": "1.0.0",
+  "name": "diceware-passphrase-generator-ff-addon",
+  "version": "0.1",
   "description": "A Diceware passphrase generator",
   "main": "index.js",
-  "repository": "https://github.com/grempe/diceware.git",
-  "author": "Glenn Rempe <glenn@rempe.us>",
+  "repository": "https://github.com/gromain/Diceware-Passphrase-Generator",
+  "author": "Romain Bazile <romain@bazile.io>",
   "license": "MIT",
   "dependencies": {
     "big.js": "^5.2.2",
