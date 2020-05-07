@@ -1,6 +1,8 @@
 # Diceware Passphrase Firefox Addon Generator
 
-A [Diceware](http://world.std.com/~reinhold/diceware.html) passphrase generator,
+![Screenshot of the extension](screenshot.png?raw=true)
+
+A [Diceware](http://world.std.com/~reinhold/diceware.html) passphrase generator extension,
 implemented in JavaScript, accessible directly from your browser.
 This uses the
 [Cryptographically Secure Pseudo Random Number Generator](https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator)
