@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Diceware Passphrase Generator",
+  "author": "Romain Bazile",
+  "homepage_url": "https://github.com/gromain/Diceware-Passphrase-Generator",
+
+  "description": "Generates a secure passphrase using the Diceware method using several different words list.",
+  "version": "0.1",
+
+  "incognito": "split",
+
+  "icons": {
+    "48": "logo48.png",
+    "96": "logo96.png",
+    "128": "logo128.png"
+  },
+
+  "browser_action": {
+    "browser_style": false,
+    "default_icon": "logo.png",
+    "default_popup": "index.html"
+  }
+}
