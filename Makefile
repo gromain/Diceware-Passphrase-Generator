@@ -1,4 +1,5 @@
 deps = logo.png logo48.png logo96.png logo128.png \
+	LICENSE README.md \
 	lists/* manifest.json index.html index.js \
 	node_modules/big.js/big.min.js \
 	node_modules/bootstrap/dist/css/bootstrap.min.css \

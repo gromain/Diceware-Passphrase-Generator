@@ -60,12 +60,24 @@ You can also clone the repository and verify the signatures locally using your
 own GnuPG installation. You can find my certificates and read about how to conduct
 this verification at [https://keybase.io/gromain](https://keybase.io/gromain).
 
+### Packaging for testing or release
+
+This addon uses a Makefile to produce the artefact for testing the addon or releasing it.
+
+`make zip` creates the artefact for testing or releasing the addon.
+To test it, simply go to `about:debugging` in your browser, chose the tab "This Firefox" and load the generated zip file.
+
+`make clean` removes the artefact and `make update` updates the created zip file with your changes.
+
 ### Contributing
 
 Bug reports and pull requests are welcome on GitHub
 at [https://github.com/gromain/Diceware-Passphrase-Generator](https://github.com/gromain/Diceware-Passphrase-Generator). This
 project is intended to be a safe, welcoming space for collaboration, and contributors
 are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+### TODO
+ -[ ] Addition of a landing and setting page that allows to chose the default language list used
 
 ## Legal
 
