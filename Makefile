@@ -10,11 +10,11 @@ deps = logo.png logo48.png logo96.png logo128.png \
 	node_modules/clipboard/dist/clipboard.min.js
 
 zip : $(deps)
-	zip diceware $(deps)
+	zip diceware-passphrase-generator $(deps)
 
 clean:
-	rm diceware.zip
+	rm diceware-passphrase-generator.zip
 
 update:$(deps)
-	zip diceware -u $(deps)
+	zip diceware-passphrase-generator -u $(deps)
 
