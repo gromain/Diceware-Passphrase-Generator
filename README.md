@@ -13,11 +13,11 @@ This uses the
 * Git tags and commits are [signed with my public code signing key](https://keybase.io/gromain)
 * Can be run without a network connection. No logging or analytics
 * All assets are served locally from the addon folder
-* NOT ACTIVATED YET All [CSS/JS](https://sritest.io/#report/e0d1efa0-cc91-46d9-9450-8669cfe3bfe2) have [Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) hashes
+* All CSS and JS elements used have [Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) hashes
 * Support for many language specific word lists
 
 It may just be the closest thing to rolling your own dice. You can do that too
-of course, and just use this app as a quick way to lookup your passphrase
+of course, and just use this addon as a quick way to lookup your passphrase
 in the word lists.
 
 ## Using It
