@@ -79,7 +79,7 @@ project is intended to be a safe, welcoming space for collaboration, and contrib
 are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ### TODO
- -[ ] Addition of a landing and setting page that allows to chose the default language list used
+ - [ ] Addition of a landing and setting page that allows to chose the default language list used
 
 ## Legal
 
