@@ -22,17 +22,24 @@ in the word lists.
 
 ## Using It
 
-Just choose a language and click a button corresponding to the number of
-words you want to generate. You'll get a new passphrase with each click.
+Just open the plugin by clicking on its icon.
+If you choose a new language or click the green button, a new 6 words passphrase will be generated.
 Each generation rolls a set of five virtual dice for **each** word. Words are
-chosen from the included Diceware word lists. The die roll numbers are shown
-next to each word.
+chosen from the included Diceware word lists.
+
+By default, a 6 words passphrase is generated. This is about ~77.55 bits of entropy
+(~12.92 bits/word, ~10 bits/letter, and ~5.16 bits/symbol).
+For a professional adversary can guess passwords at the rate of a 1,000,000,000,000 keys/second,
+an exhaustive brute-force search on 50% of the total keyspace might take ~30,704,711
+hours or ~1,279,363 days or ~3,505 years.
+
+Depending on your security requirements, you may want to add a word or a symbol to the generated passphrase.
 
 ## Security
 
 If you are security conscious you are of course encouraged to download
 the [source code](https://github.com/gromain/Diceware-Passphrase-Generator) for
-this addon and check the code yourself.
+this addon and check the code yourself. The main part is located [here](https://github.com/gromain/Diceware-Passphrase-Generator/blob/master/index.js#L35).
 
 ### Tin Foil Hat Version
 If you want to be *REALLY REALLY* secure. Roll the dice with a flashlight under
