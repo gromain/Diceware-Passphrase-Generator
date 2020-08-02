@@ -19,7 +19,10 @@ zip : $(deps)
 
 clean:
 	rm diceware-passphrase-generator.zip
+	rm checksums.sha1
 
 update:$(deps)
 	zip diceware-passphrase-generator -u $(deps)
 
+checksum:$(deps)
+	sha1sum $(deps) > checksums.sha1
