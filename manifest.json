@@ -6,7 +6,7 @@
   "homepage_url": "https://github.com/gromain/Diceware-Passphrase-Generator",
 
   "description": "Generates a secure passphrase using the Diceware method using several different words list.",
-  "version": "0.2",
+  "version": "0.3",
 
   "icons": {
     "48": "logo48.png",
