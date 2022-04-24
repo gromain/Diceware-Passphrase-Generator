@@ -198,6 +198,7 @@ function displayWords (words) {
     })
 
     $('#diceWordsCopyableSpace').text(wordList.join(' '))
+    wordList[0] = wordList[0].charAt(0).toUpperCase() + wordList[0].slice(1);
     $('#diceWordsCopyableDash').text(wordList.join('-'))
     $('#diceWordsCopyableContainer').slideDown()
 }
@@ -230,7 +231,7 @@ $(document).ready(function () {
     // clear and reset everything on initial load.
     resetUI()
     // Generate a new passphrase on language selection
-    displayWords(getWords(6, 5))
+    displayWords(getWords(7, 5))
 
     // The nav links are used to select the current word list.
     $('.listSelectionLink').on('click', function (e) {
@@ -241,7 +242,7 @@ $(document).ready(function () {
         $(this).parent().addClass('active')
         resetUI()
         // Generate a new passphrase on language selection
-        displayWords(getWords(6, 5))
+        displayWords(getWords(7, 5))
         // Propagation of the form submission resets the URL's hash.
         e.preventDefault()
     })

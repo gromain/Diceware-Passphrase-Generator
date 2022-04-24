@@ -3,7 +3,7 @@ cc88465870b7a725a9e2f0bf32ce6be3aaa525b6  logo48.png
 a2dde82c52a2d1be141f8c624224bd2bf9dcddf0  logo96.png
 499ad24740cdbbb024d6ad23daadbd10be35cc58  logo128.png
 fe0be83773e893c44ae8637bbb03353251cc004f  LICENSE
-b5da392ac4a1a9d6d1099d23c9f5003c54f72cb5  README.md
+c574f31aecaa46b96ac847461a9b40f210ece7dd  README.md
 7b82100f3cd11d6f03a6999c583ad34d15159dab  lists/alternative.js
 b49ad3a077a940767a10fbb28d26c80fc476c285  lists/alternative-min.js
 52eb29958ed86b746c371b6f22ac730c32719563  lists/basque.js
@@ -21,6 +21,7 @@ f3b65e33f8cef50178e71437e141b9ea0deb9076  lists/dutch-min.js
 2708a28b873e70933565fd2b2477ae96048e662a  lists/esperanto.js
 a6b2ce0f2480d329910882b24b303259e09b4884  lists/esperanto-min.js
 113ca38cf6c7c0e88ba125482fbffab742740bb8  lists/finnish.js
+348d240c9c55cca7b44dbd281cb2bc13a750a610  lists/french-alt.js
 f11836b4c93f77d0d3137f6c2c2acf2c4d916d4e  lists/french.js
 846b7b30c8ef4c3e8e7f85343ff6127a2af19662  lists/french-min.js
 e3e9efc00ba845b665c15e4ea6f255490df9c5fc  lists/german.js
@@ -44,9 +45,9 @@ f25fdfb60e6e1d9a5860bc5ee08ffb49e4fe2b18  lists/spanish.js
 7539748812297908f6ba9e29f95e2551191cda06  lists/special-min.js
 e03ee03328186127a831c7477cc7a4df95f5d847  lists/swedish.js
 ed94649d594ee1ad21d4d136fd7f7ad58be87062  lists/swedish-min.js
-0f7b448733f387ad46b1f9a79e1a620423559397  manifest.json
-9fe7b437e1b1c5f4895b818dcbf86ea1a84b415c  index.html
-595d5aa04336cd35dc0b9a98cc66e6fe9041e937  index.js
+e0360ed7462b62a257b7aadd4bcf0605b5f1cc2c  manifest.json
+4a6888c315ca63fd8e7af43492bec20097f0e714  index.html
+5aaba44a81abaaf46ae28f92a3e871d7e9375805  index.js
 07b06bfcded95aaa07d71130e811701d9ee869a1  node_modules/big.js/big.min.js
 b0972fdcce82fd583d4c2ccc3f2e3df7404a19d0  node_modules/bootstrap/dist/css/bootstrap.min.css
 63c6119052abd1f848ee51657ce892a78d019c06  node_modules/bootstrap/dist/css/bootstrap.min.css.map

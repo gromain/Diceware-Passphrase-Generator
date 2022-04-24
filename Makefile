@@ -26,3 +26,4 @@ update:$(deps)
 
 checksum:$(deps)
 	sha1sum $(deps) > checksums.sha1
+	./sri-gen.rb

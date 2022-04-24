@@ -1,6 +1,6 @@
 {
   "name": "diceware-passphrase-generator-ff-addon",
-  "version": "0.3",
+  "version": "0.4",
   "description": "A Diceware passphrase generator",
   "main": "index.js",
   "repository": "https://github.com/gromain/Diceware-Passphrase-Generator",
